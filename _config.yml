@@ -22,8 +22,8 @@ title: Interlude
 email: willemvanlishout@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Just another blog, no animals, humans or vegetables were harmed.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/interlude" # the subpath of your site, e.g. /blog
+url: "https://wasmachien75.github.com/interlude" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  wasmachien75
 
 # Build settings
