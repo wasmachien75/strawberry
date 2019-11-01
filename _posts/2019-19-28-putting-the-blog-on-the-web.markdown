@@ -27,7 +27,7 @@ By default, Jekyll will have created a `.gitignore` file that prevents the _site
 
 Go to your repository on Github and make sure your files are there: `_config.yml` and the `_posts` directory are the ones you should be most concerned about.
 
-##Step 2: Modify _config.xml
+## Step 2: Modify _config.xml
 
 This one is important. Assuming you do not create a user site, your site will have a URL with following pattern: ***https://{username}.github.io/{repository-name}***. Jekyll needs to know this in order to create correct references. You should therefore set the name of your repository as your `baseurl` in `_config.yml`, e.g. `/my-first-blog`.
 
@@ -35,6 +35,6 @@ It took me a while to figure this out - when you don't do this, the site will wo
 
 Feel free to fill out the other fields as well.
 
-##Step 3: Configure your Github repository
+## Step 3: Configure your Github repository
 
 We now need to tell Github that we want to use this repository to act as the source for a Github Pages website. To do this, go to the **Settings** of your repository and scroll down to the **Github Pages** section. Select **master branch** as the source of your site. After saving, Github will tell you that your site is ready to be deployed. It can even set the theme for you, isn't that cool? Do note that this will silently add a commit to your `_config.yml` file, so make sure to pull before you push later on.
