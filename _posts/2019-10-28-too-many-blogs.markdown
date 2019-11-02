@@ -5,7 +5,7 @@ date:   2019-10-28 17:43:15 +0100
 ---
 The world does not need another blog, but I am writing it anyway. With all this noise about simple, sexy static site generators I could not resist the temptation to try it myself. Luckily for me, playing with CSS and complaining about everything are two of the things I like doing most.
 
-I call it **Cucumber**.
+I call it **Strawberry**.
 
 The first question that naturally posed itself was the choice of static site generator/blog framework/whatever you want to call it. The [paradox of choice](https://gostrengths.com/what-is-the-paradox-of-choice/) is very much present in this domain. There are multiple products available that do more or less the same, but are all built on different technologies.
 
@@ -27,7 +27,6 @@ Here is a list of things that I consider myself knowledgeable about, or in which
 - Training
 - Human languages
 - Psychology
-- User experience
 
 I work in an IT company that develops specialized software for the television industry. 
 
