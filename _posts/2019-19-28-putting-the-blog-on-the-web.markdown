@@ -4,7 +4,7 @@ title:  "Putting a Jekyll blog on Github Pages"
 date:   2019-11-01 20:29:00 +0100
 ---
 Here I teach myself to put this blog on Github Pages so the whole world can read it, and therefore become smarter.
-The good part about using Jekyll with Github is that the latter takes care of the build process for you. This means that Github automatically detects your Jekyll config, builds a static site from your source code and publishes it. If you would use another site generator, you would need to do this yourself, probably using a CI tool such as [Travis](https://www,travis-ci.org). Having this done automatically simplifies things dramatically, the downside is that tracking down problems in a black box system is a difficult task.
+The good part about using Jekyll with Github is that the latter takes care of the build process for you. This means that Github automatically detects your Jekyll config, builds a static site from your source code and publishes it. If you would use another site generator, you would need to do this yourself, probably using a CI tool such as [Travis](https://www,travis-ci.org). Having this done for you simplifies things dramatically, the downside is that tracking down problems in a black box system is a difficult task.
 
 Being a good user, I mostly used Github's own documentation to figure everything out, but like most technical documentation it does not manage to explain this relatively short setup in a concise way. Let me try to do it a little bit better.
 
@@ -29,7 +29,7 @@ Go to your repository on Github and make sure your files are there: `_config.yml
 
 ## Step 2: Modify _config.xml
 
-This one is important. Assuming you do not create a user site, your site will have a URL with following pattern: ***https://{username}.github.io/{repository-name}***. Jekyll needs to know this in order to create correct references. You should therefore set the name of your repository as your `baseurl` in `_config.yml`, e.g. `/my-first-blog`.
+This one is important. Assuming you do not create a user site (a site that is associated with your Github profile, rather than with a certain project), your site will have a URL with following pattern: *https://{username}.github.io/{repository-name}*. Jekyll needs to know this in order to create correct references. You should therefore set the name of your repository as your `baseurl` in `_config.yml`, e.g. `/my-first-blog`.
 
 It took me a while to figure this out - when you don't do this, the site will work, but the CSS will not load and you will have 404 errors all around the place. I did not see this subtle, but important detail explained in Github's own documentation!
 
