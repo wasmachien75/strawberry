@@ -90,9 +90,9 @@ In this example, we pass a sequence of strings to the function:
 
 ```xml
 <person>
-	<name>
-		<xsl:value-of select="f:random-element(('David', 'Michael', 'Jack'))"/>
-	</name>
+  <name>
+    <xsl:value-of select="f:random-element(('David', 'Michael', 'Jack'))"/>
+  </name>
 </person>
 ```
 
