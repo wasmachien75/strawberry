@@ -8,11 +8,11 @@ XPath 3.0 introduced a function `random-number-generator()` that allows generati
 
 The function can optionally be called with a seed parameter.
 
-As can be seen from its name, this function does not return a random number. Instead, a map is returned with 3 entries:
+As can be deduced from its name, this function does not simply return a random number. Instead, a map is returned with 3 entries:
 
-* number -> holds an `xs:double` between 0 and 1.
-* next() -> function which returns a new random number generator.
-* permute() -> function which returns a random permutation of the sequence which is passed as its parameter.
+* `number` -> holds an `xs:double` between 0 and 1.
+* `next()` -> function which returns a new random number generator.
+* `permute()` -> function which returns a random permutation of the sequence which is passed as its parameter.
 
 A simple example using XSLT 3.0:
 
@@ -33,7 +33,7 @@ First, we create a helper function that takes an integer to define the lengh of 
   <xsl:param name="length"/>
   <xsl:variable name="random-number" select="($rng?number * 26 + 97) => xs:integer()"/>
   <xsl:value-of select="codepoints-to-string($random-number)"/>
-  <xsl:if test="$length > 0">
+  <xsl:if test="$length > 1">
     <xsl:value-of select="f:_random-string-with-generator($rng?next(), $length - 1)"/>
   </xsl:if>
 </xsl:function>
@@ -70,7 +70,7 @@ Which results in:
 
 ```xml
 <person>
-   <name>sdxynrkhqrg</name>
+   <name>sdxynrkhqr</name>
 </person>
 ```
 
@@ -85,6 +85,18 @@ Another way in which the random number generator function can help is by letting
 ```
 
 We get a random number, multiply it by the number of items in the sequence and round it up (remember that in XPath, sequences start from index 1), then use it as the position selector of the sequence.
+
+In this example, we pass a sequence of strings to the function:
+
+```xml
+<person>
+	<name>
+		<xsl:value-of select="f:random-element(('David', 'Michael', 'Jack'))"/>
+	</name>
+</person>
+```
+
+But since the function parameter is defined as `item()+`, this is not limited to just sequences. You could for example invoke the function as `f:random-element(//text())` to get the value of a random text node in the input document.
 
 Note that in Saxon, multiple `random-number-generator()` calls will always return the same result — presumably Saxon uses the current datetime as the initial seed.
 
