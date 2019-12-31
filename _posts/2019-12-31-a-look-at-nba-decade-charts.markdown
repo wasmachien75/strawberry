@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A look at a decade of NBA basketball"
-date:   2019-12-21 15:00 +0100
+date:   2019-12-31 15:00 +0100
 tags: [data, visualization, basketball ]
 ---
 
