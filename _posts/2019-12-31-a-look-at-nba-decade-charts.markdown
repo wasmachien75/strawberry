@@ -33,8 +33,8 @@ Another decade of NBA basketball has gone by. Let's look at some data! To start 
 {%include img-link.md img='images/2019-12-31/Top 30 FTA.png'%} 
 
 There are some conclusions to be drawn:
-- James Harden is a great scorer and incredibly adept at getting to the free throw line.
-- Serge Ibaka is a somewhat surprising leader in the blocks category, especially considering he played at power forward for most of his career. It shows that there were few great centers in this deace.
+- James Harden is a generational scoring talent and incredibly adept at getting to the free throw line.
+- Serge Ibaka is a somewhat surprising leader in the blocks category, especially considering he played at power forward for most of his career. It shows that there were few great centers in this decade.
 - Chris Paul is just 80 assists shy of Russell Westbrook's total, but has less than half of Westbrook's number of turnovers.
 
 These are the players that managed to score more than 10000 points, grouped by position:
@@ -69,7 +69,7 @@ Things I notice:
 
 ### The rise of the three point shot
 
-To say that the way the game is played compared to just 10 years ago would be an understatement. This plot shows the ratio of three point shots being taken compared to two point shots and the percentage at which those shots are made:
+To say that the way the game is played differently compared to just 10 years ago would be an understatement. This plot shows the ratio of three point shots being taken compared to two point shots and the percentage at which those shots are made:
 
 {%include img-link.md img='images/2019-12-31/3fg ratio.png'%}
 
@@ -87,14 +87,13 @@ Between 2003 and 2019, the average starter lost almost 4 minutes of game time!
 
 ### Colleges
 
-What colleges are responsible for raising the NBA players? The following plot shows who takes the crown:
+What colleges are responsible for producing the most NBA players? The following plot shows who takes the crown:
 
 {%include img-link.md img='images/2019-12-31/Colleges by number of picks.png'%}
 
 Kentucky is the clear winner here, having produced 38 NBA players between 2010 and 2019, including names such as Anthony Davis, Devin Booker, Karl-Anthony Towns and John Wall. The second and third spot are taken by Duke and Kansas.
-You might wonder if quality equals quantity?
 
-Have a look at which colleges have the highest average draft pick:
+Perhaps you wonder if quality equals quantity? Have a look at which colleges have the highest average draft picks:
 
 {%include img-link.md img='images/2019-12-31/Colleges with average draft pick.png'%}
 
