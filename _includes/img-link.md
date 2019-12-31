@@ -1,0 +1,1 @@
+<a href="{{include.img | relative_url}}"><img src="{{include.img | relative_url}}"/></a>

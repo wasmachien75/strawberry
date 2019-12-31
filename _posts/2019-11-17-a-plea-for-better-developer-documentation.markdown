@@ -25,20 +25,28 @@ Let me illustrate my point with some examples from some big players:
 
 ### Stripe ###
 
-[Stripe API documentation]({{"images/stripe.png" | relative_url}})
+{%include img-link.md img='images/stripe.png' %}
 
 Stripe is a payment processing service that is commonly lauded for their excellent API documentation.
 
 ### Microsoft ###
 
+{%include img-link.md img='images/ms_fb.png'%}
+
 Microsoft has a colossal amount of technical documentation for all of their software, programming languages and services. Notice the large range of possibiities to leave feedback. Microsoft recognizes that documentation is never perfect and wants you to tell them how it can be improved.
 
 Interestingly, they have moved all of their documentation to GitHub. This means that everybody can contribute. They even publish style guides that you should adhere to when writing documentation.
+
+{%include img-link.md img='images/ms_sg1.png'%}
+
+
+{%include img-link.md img='images/ms_sg2.png'%}
 
 ### Spotify ###
 
 Spotify doesn't just provide documentation, they straight-up tell you how to create a new front-end app if you're not happy with theirs!
 
+{%include img-link.md img='images/spotify.png'%}
 
 All these companies have one thing in common, which is that that they want you to develop things on their platform. Nowadays, everything is connected to the internet, including your car, your TV and your shower. Amazon literally sells buttons that you can push to automatically order toilet paper if you run out. All systems talk to each other to create an interconnected experience. If your platform does not offer that possibility, you are irrelevant and you will disappear off the map. The easiest way to get developers on your platform is by recognizing developers are inherently lazy, and you should therefore provide accessible documentation that frees them from hours of frustrating trial-and-error.
 
@@ -53,3 +61,5 @@ Here is what I believe makes for good API documentation:
 * Examples, examples, examples.
 
 Conclusion: treat developers as end users. Treat your technical writers as kings. Make sure your **documentation is a feature**, not an afterthought. The Internet of Things revolution has started and you don't want to be left behind.
+
+[stripe]: {{"images/stripe.png" | relative_url}}

@@ -20,7 +20,7 @@
 
 title: Strawberry
 description: >- # this means to ignore newlines until "baseurl:"
-  Just another blog, no animals, humans or vegetables were harmed.
+  Just another blog - no animals, humans or vegetables were harmed.
 baseurl: "/strawberry" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  wasmachien75
