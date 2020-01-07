@@ -30,6 +30,7 @@ email: hunting.for.strawberries@gmail.com
 theme: minima
 plugins:
   - jekyll-feed
+google_analytics: UA-59023952-2
 
 # Exclude from processing.
 # The following items will not be processed, by default.
